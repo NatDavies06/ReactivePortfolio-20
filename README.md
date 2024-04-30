@@ -2,6 +2,22 @@
 
 ## Overview
 
+This portfolio is built with React, showcasing my projects and provides information about me.
+
+## Installation
+
+1. Clone the repository:
+
+    `https://github.com/NatDavies06/ReactivePortfolio-20.git`
+
+2. Install dependencies;
+
+    `npm install`
+
+3. Run the server:
+
+    `npm start`
+
 ## Video Demo
 
 Coming Soon!
