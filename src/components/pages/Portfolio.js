@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../components/Project';
+import Project from '../../reactiveportfolio-20/src/components/Project';
 
 const Portfolio = () => {
     return (
