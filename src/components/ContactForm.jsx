@@ -13,7 +13,7 @@ const ContactForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // TODO: Add form submission logic here
+        // TODO: Add form submission form logic
     };
 
     return (
