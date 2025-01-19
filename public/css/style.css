@@ -432,7 +432,6 @@ section {
 .play-icon:before {
     font-family: 'fontawesome';
     content: '\f144';
-    speak: none;
     font-size: 74px;
     line-height: 110px;
     font-style: normal;
@@ -707,6 +706,7 @@ a img {
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 a img:hover {
