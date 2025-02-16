@@ -370,6 +370,39 @@ section {
     display: inline-block;
 }
 
+/* Target all anchor tags directly that contain images in the Interests section */
+#interests a {
+    position: relative;
+    display: inline-block;
+}
+
+#interests img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* The hover text styling */
+#interests .hover-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+
+/* Make the text appear when hovering over the images */
+#interests a:hover .hover-text {
+    opacity: 1;
+}
+
 /* --------- 2.3 Buttons ---------- */
 
 .call-to-action {
