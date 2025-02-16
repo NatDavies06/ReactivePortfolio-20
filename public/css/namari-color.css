@@ -171,8 +171,7 @@ body {
 }
 
 #banner h2 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:18px;
+    font-family: 'Orbitron', sans-serif;
     font-weight:300;
     color:#111;
 }
@@ -319,11 +318,11 @@ h6 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:12px;
     font-weight:normal;
-    color:#999;
+    color:#666666;
 }
 
 /* Footer Icon Color */
 
 #landing-footer i {
-    color:#999;
+    color: #666666;
 }

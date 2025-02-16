@@ -56,19 +56,16 @@
                 <div class="col-1">
 
                     <!--Logo-->
-                    <div id="logo">
-
-                        <!--Logo that is shown on the banner-->
-                        <img src="public/images/logo.jpeg" id="banner-logo" alt="Landing Page"/>
-                        <!--End of Banner Logo-->
-
-                        <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img src="public/images/logo-2.jpeg" id="navigation-logo" alt="Landing Page"/>
-                        <!--End of Navigation Logo-->
-
-                    </div>
-                    <!--End of Logo-->
-
+            <div id="logo">
+             <!-- Wrap both logos in anchor tags -->
+             <a href="#banner">
+             <img src="public/images/logo.jpeg" id="banner-logo" alt="Landing Page"/>
+             </a>
+        <a href="#banner">
+        <img src="public/images/logo-2.jpeg" id="navigation-logo" alt="Landing Page"/>
+    </a>
+</div>
+<!--End of Logo-->
                     <aside>
 
                         <!--Social Icons in Header-->
@@ -237,10 +234,13 @@
 
 
         <!--Interests-->
+        <aside id="interests" class="row text-center scrollto clearfix" data-featherlight-gallery
+        ]data-featherlight-filter="a">
+
         <div class="section-heading">
             <h3>IDENTITY</h3>
-        <aside id="interests" class="row text-center scrollto clearfix" data-featherlight-gallery
-                 data-featherlight-filter="a">
+            <h2 class="section-title">Interests</h2>
+            </div>
 
                 <a href="public/images/gallery-images/discgolf.jpeg" data-featherlight="image" class="col-3 wow fadeIn"
                    data-wow-delay="0.1s"><img src="public/images/gallery-images/discgolf.jpeg" alt="Landing Page"/></a>
@@ -361,7 +361,7 @@
             <p id="copyright" class="col-2">Special thanks to <a href="https://www.shapingrain.com">ShapingRain</a></p>
 
             <!--Social Icons in Footer-->
-            <ul class="col-2 social-icons">
+            <!--<ul class="col-2 social-icons">
                 <li>
                     <a target="_blank" title="Github" href="https://github.com/NatDavies06">
                         <i class="fa fa-github fa-1x"></i><span>Github</span>
@@ -387,7 +387,7 @@
                         <i class="fa fa-behance fa-1x"></i><span>Behance</span>
                     </a>
                 </li>
-            </ul>
+            </ul>-->
             <!--End of Social Icons in Footer-->
         </div>
     </footer>
