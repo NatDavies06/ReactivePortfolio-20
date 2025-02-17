@@ -1,67 +1,30 @@
-# Reactive Portfolio
+# Nathan Davis - Portfolio
 
 ## Overview
+This is my personal portfolio website, built to showcase my journey, projects, and interests. It provides insights into my background, my work in web development, and ways to connect with me.
 
-This project is a personal portfolio built using React and Vite. It showcases my work as a web developer and includes sections such as About Me, Portfolio, Contact, and Resume. This portfolio is designed to be a single-page application, providing a smooth user experience for potential employers and collaborators.
-
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/react-portfolio.git
-    cd react-portfolio
-    ```
-
-2. **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3. **Start the development server:**
-    ```bash
-    npm run dev
-    ```
-
-4. **Build for production:**
-    ```bash
-    npm run build
-    ```
-
-5. **Preview the production build:**
-    ```bash
-    npm run preview
-    ```
-
-## Deployment
-
-This application is deployed on Netlify. To deploy your own version:
-
-1. **Create a repository on GitHub and push your project.**
-
-2. **Sign up on [Netlify](https://www.netlify.com/) and link your GitHub repository.**
-
-3. **Configure the build settings:**
-
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-
-4. **Deploy the site and get your live URL.**
-
+## Features
+- **Responsive Design**: Optimized for desktop and mobile viewing.
+- **Project Showcase**: Highlights key projects with links to repositories.
+- **Contact Form**: Allows visitors to reach out to me directly.
+- **Social Links**: Connect via GitHub and LinkedIn.
+- **Animated UI**: Smooth animations and transitions.
 
 ## Technologies Used
+- **HTML, CSS, JavaScript**
+- **Font Awesome** (icons)
+- **Animate.css** (animations)
+- **Featherlight.js** (lightbox for images)
+- **jQuery** (enhanced interactivity)
+- **Wow.js** (scroll animations)
 
-- React
-- Vite
-- React Router
-- CSS (for styling)
+## Issues & Improvements
+If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
+
+## Contact
+You can reach me via:
+- **GitHub**: [@NatDavies06](https://github.com/NatDavies06)
+- **LinkedIn**: [Nathan Davis](https://www.linkedin.com/in/nathan-davis-151728311/)
 
 ## License
-
-This project is licensed under the MIT License.
-
-## Contribution
-
-[Nathan Davis](https://github.com/NatDavies06/ReactivePortfolio-20.git)
+This project is open-source and available under the [MIT License](LICENSE).
