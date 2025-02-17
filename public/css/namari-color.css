@@ -171,7 +171,7 @@ body {
 }
 
 #banner h2 {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-weight:300;
     color:#111;
 }
@@ -180,7 +180,7 @@ body {
 /* Section Title and Subtitle */
 
 .section-title {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Jazz LET', fantasy;
     font-size: 34px; 
     font-weight:700;
     color:#111;
